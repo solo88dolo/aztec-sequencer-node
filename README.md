@@ -39,6 +39,10 @@ Aztec is building a decentralized, privacy-focused network and the sequencer nod
 ```bash
 command -v curl >/dev/null 2>&1 || apt-get update && apt-get install -y curl; command -v wget >/dev/null 2>&1 || apt-get install -y wget
 ```
+- Open New Screen
+```bash
+screen -S aztec
+```
 - Execute either of the following commands to run your Aztec node
 
 ```
